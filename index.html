@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <title>To-Do List by Guaviie</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="clear">
+                    <i class="fa-fa-refresh" aria-hidden="true"></i>
+                </div>
+                <div id="date"></div>
+            </div>
+            <div class="content">
+                <p>Click to indicate completion and/ click 'x' to remove from list. </p>
+                <ul id="list">
+                    
+                </ul>
+            </div>
+            <div class="addToList">
+                <input type="text" id="myInput" placeholder="Add a to-Do ....">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
